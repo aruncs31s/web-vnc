@@ -29,7 +29,6 @@ vncserver :1 (for tightvnc)
 [Download novnc from here](https://github.com/novnc/noVNC/releases)
 <br />
 ```
-ss -tuln | grep  590
 
 cd /usr//share/novnc/utils/
 ./launch.sh --vnc host:port 
